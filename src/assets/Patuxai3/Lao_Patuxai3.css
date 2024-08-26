@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Lao_Patuxai3';
+    src: url('./Lao_Patuxai3.ttf') format('truetype'); 
+    font-weight: 100; 
+    font-style: normal;
+    unicode-range: U+0E80-0EFF;
+}

@@ -1,0 +1,67 @@
+@import './Patuxai3/Lao_Patuxai3.css';
+
+*,.ant-input{
+  font-family: 'Lao_Patuxai3', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-font{
+  font-family: 'Lao_Patuxai3', sans-serif;
+}
+
+
+
+/* ----- main menu ----- */
+.ant-menu-inline.ant-menu-root .ant-menu-item{
+  font-weight: 700 !important;
+  color: white !important;
+  transition: .2s ease-in-out;
+}
+.ant-menu-item-active, .ant-menu-item-selected{
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  line-height: 2rem;
+  color: white !important;
+  background-color: #1F3E93 !important;
+}
+.ant-menu-item-active .ant-menu-item-selected:hover{
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  line-height: 2rem;
+  color: white !important;
+  background-color: #1F3E93 !important;
+}
+
+/* ----- sub menu ------  */
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title{
+  font-weight: 700 !important;
+  color: white !important;
+  transition: .2s ease-in-out;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-item-active, .ant-menu-item-selected.ant-menu-item-only-child{
+  font-weight: 700 !important;
+  color: white !important;
+  transition: .2s ease-in-out;
+  background-color: #1F3E93 !important;
+}
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title:hover {
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  transition: .2s ease-in-out;
+  color: white !important;
+  background-color: #1F3E93 !important;
+}
+
+
+
+/* ----- button -----  */
+.ant-btn-primary:hover{
+  color: white !important;
+}
+.ant-btn-circle:hover{
+  color: white !important;
+}
+
+
+
